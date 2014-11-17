@@ -1,0 +1,14 @@
+.mynavbar {
+	 margin-bottom: 0px;
+}
+
+.myjumbotron {
+    margin-bottom: 0px;
+}
+
+.gameCube {
+
+    background: url(../img/placeholder.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
