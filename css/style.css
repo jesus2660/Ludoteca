@@ -1,14 +1,93 @@
-.mynavbar {
-	 margin-bottom: 0px;
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form {
+	margin: 0; padding: 0; border: 0;
 }
 
-.myjumbotron {
-    margin-bottom: 0px;
+body {
+	color: #69BD66;
+	font-family: sans-serif;
 }
 
-.gameCube {
+header {
+	height: 100px;
+	background: rgb(18,3,42);
+	width: 100%; 
+	z-index: 10;
+	position: fixed;
+	text-align: center;
+}
 
-    background: url(../img/placeholder.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+header h1 {
+	height: 66px;
+}
+
+header nav {
+	height: 34px;
+}
+
+#banner {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	background: #ebebFF;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	top: 600px;
+	background: #331B27;
+}
+
+#matrix {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	background: #ebebFF;
+	overflow: auto;
+}
+
+.game {
+	float: left;
+	width: 33.333%;
+	padding-bottom: 33.333%;
+	position: relative;
+	overflow:hidden;
+}
+
+.game img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+	width: 100%;
+	background: #ebebFF;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 10px 10px;
+}
+
+header nav a:hover {
+	color: rgb(77,211,160);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+	text-align: center;
+	width: 100%;
+}
+
+#pagination {
+	clear: left;
+	text-align: center;
 }
