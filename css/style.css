@@ -11,6 +11,10 @@ body {
 	height: 66px;
 }
 
+#logotiny {
+	height: 33px;
+}
+
 header {
 	height: 100px;
 	background: rgb(18,3,42);
@@ -61,15 +65,11 @@ header nav {
 	width: 300px;
 }
 
-
-
-
-
 #content {
 	width: 100%;
 	position: relative;
 	top: 600px;
-	background: url(../img/background_flare.jpg);
+	background: #ebebFF;
 }
 
 #matrix {
@@ -78,6 +78,7 @@ header nav {
 	position: relative;
 	top: 0px;
 	overflow: auto;
+	padding-bottom: 25px;
 }
 
 .game {
@@ -96,18 +97,32 @@ header nav {
 
 footer {
 	width: 100%;
-	background: #ebebFF;
+	background: rgb(18,3,42);
 	text-align: center;
-	color: rgb(18,3,42);
+	color: #ebebFF;
 }
 
 footer a {
-	color: rgb(18,3,42);
+	color: #ebebFF;
+	border-top: 5px;
+}
+
+footer a:hover {
+	color: rgb(77,211,160);
 }
 
 nav li {
 	display: inline;
 	margin: 0 0 10px 10px;
+}
+
+footer ul {
+	padding-top: 5px;
+}
+
+footer p {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 header nav a:hover {
