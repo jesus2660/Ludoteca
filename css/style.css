@@ -72,6 +72,13 @@ header nav {
 	background: #ebebFF;
 }
 
+#content-nobanner {
+	width: 100%;
+	position: relative;
+	top: 100px;
+	background: #ebebFF;
+}
+
 #matrix {
 	width: 80%;
 	margin: 0 auto;
