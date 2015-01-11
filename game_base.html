@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ludoteca</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/simple-slideshow-styles.css">
+</head>
+
+<body>
+		<header>
+			<h1><a href="#"><img src="img/logo2.png" id="logo"></img></a></h1>
+			<nav class="navbar">
+
+			<ul>
+				<li><a href="#">Estrategia</a></li>
+				<li><a href="#">Simulacion</a></li>
+				<li><a href="#">Accion</a></li>
+				<li><a href="#">Aventura</a></li>
+				<li><a href="#">Juegos de Mesa</a></li>
+			</ul>
+		</nav>
+		</header>
+		<div id="content-nobanner">
+			<div class="container-80">
+				<img src="img/placeholder.png" class="game-logo">
+				<h1>Game Title</h1>
+				<a href="#">Todos los juegos</a> > <a href="#">Categoria</a>
+				<p>Descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="bss-slides slideshow" tabindex="1"  style="width:99%">
+					<figure>
+			            <img src="img/polygons-original.png" width="100%" />
+			            <figcaption>Game Screenshot</figcaption> 
+        			</figure>
+        			<figure>
+			            <img src="img/banner.jpg" width="100%" />
+			            <figcaption>Game Screenshot</figcaption> 
+        			</figure>
+				</div>
+			</div>
+			<footer>
+				<nav>
+					<a href="#"><img src="img/logo2.png" id="logotiny"></img></a>
+					<ul>
+						<li><a href="#">Politeca</a></li>
+					    <li><a href="#">Textoteca</a></li>
+					    <li><a href="#">Imageteca</a></li>
+					    <li><a href="#">Animateca</a></li>
+					    <li><a href="#">Fonoteca</a></li>
+					    <li><a href="#">Mediateca</a></li>
+					    <li><a href="#">Videoteca</a></li>
+					</ul>
+					<p>Copyright &copy; 2014 Universidad de los Andes. Todos los derechos reservados.</p>
+				</nav>
+			</footer>
+	</div>
+	<script src="js/better-simple-slideshow.min.js"></script>
+	<script>
+		var opts = {
+		    auto : { 
+                // speed to advance slides at. accepts number of milliseconds
+                speed : 2000, 
+                // pause advancing on mouseover? accepts boolean
+                pauseOnHover : true 
+            },
+		    fullScreen : true,
+		    swipe : false
+		};
+		makeBSS('.slideshow', opts);
+	</script>
+
+</body>
+
+</html>

@@ -197,7 +197,18 @@ a {
 	background: rgb(18,3,42);
 	padding-bottom: 10px;
 	padding-top: 10px;
+}
 
+.container-80{
+	width: 80%;
+	color: #ebebFF;
+	background: rgb(18,3,42);
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	overflow: auto;
 }
 
 .center {
@@ -218,3 +229,7 @@ a {
 	float:left;
 }
 
+.game-canvas {
+	width: 900px;
+	height: 900px;
+}
