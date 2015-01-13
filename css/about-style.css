@@ -245,12 +245,20 @@ a {
   clear:both;
 }
 
-.container-80 p{
+.container-80 p,h1,h2,h3,h4{
 	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 5px;
 }
 
 .container-80 h1{
 	text-align: center;
+}
+
+.l-logo {
+	width: 100%;
+	float: left;
+	padding-top: 5px;
 }
 
 .m-logo {
@@ -277,4 +285,24 @@ a {
 
 .centered{
 	text-align: center;
+
 }
+
+#dora {
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.orchid {
+	color: rgb(218,112,214);
+}
+
+.light-green {
+	color: rgb(77,211,160);
+}
+
+.light-orange {
+	color: rgb(255,160,122);
+}
+
