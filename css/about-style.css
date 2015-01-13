@@ -269,3 +269,12 @@ a {
 	padding-right: 10px;
 	padding-top: 5px;
 }
+
+.col-3 {
+	width: 33.3333%;
+	float: left;
+}
+
+.centered{
+	text-align: center;
+}
