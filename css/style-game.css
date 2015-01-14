@@ -247,8 +247,8 @@ a {
 }
 
 .game-logo {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	float: left;
 }
 
@@ -280,8 +280,26 @@ a {
 
 .separator {
 	background: rgb(18,3,42);
+	text-align: center;
 }
 
 .container-80 p{
 	padding-left: 10px;
+}
+
+.orchid {
+	color: rgb(218,112,214);
+}
+
+.light-green {
+	color: rgb(77,211,160);
+}
+
+.light-orange {
+	color: rgb(255,160,122);
+}
+
+.xs-logo {
+	width: 20px;
+	height: 20px;
 }
