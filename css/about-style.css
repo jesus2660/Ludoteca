@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, figure{
 }
 
 body {
-	color: #fbe2ce;
+	color: white;
 	font-family: sans-serif;
 }
 
@@ -69,7 +69,7 @@ header nav {
 	width: 100%;
 	position: relative;
 	top: 600px;
-	background: #fbe2ce;
+	background: white;
 }
 
 #content-nobanner {
@@ -121,7 +121,7 @@ a {
 .container {
 	text-align: center;
 	width: 100%;
-	color: #fbe2ce;
+	color: white;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -130,7 +130,7 @@ a {
 	margin: 0 auto;
 	text-align: center;
 	width: 80%;
-	color: #fbe2ce;
+	color: white;
 	background: #53647d;
 	padding-bottom: 10px;
 	margin-bottom: 5px;
@@ -141,7 +141,7 @@ a {
 .pill-container-90 {
 	margin: 0 auto;
 	width: 95%;
-	color: #fbe2ce;
+	color: white;
 	background: #729091;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -153,7 +153,7 @@ a {
 .pill-container {
 	text-align: center;
 	width: 100%;
-	color: #fbe2ce;
+	color: white;
 	background: #53647d;
 	padding-bottom: 10px;
 	margin-bottom: 5px;
@@ -163,7 +163,7 @@ a {
 
 .container-80{
 	width: 80%;
-	color: #ebebFF;
+	color: #fbe2ce;
 	padding-bottom: 10px;
 	margin: 0 auto;
 	position: relative;
@@ -234,13 +234,13 @@ a {
 }
 
 .orchid {
-	color: rgb(218,112,214);
+	color: #4c3c6f;
 }
 
 .light-green {
-	color: rgb(77,211,160);
+	color: #86b298;
 }
 
 .light-orange {
-	color: rgb(255,160,122);
+	color: #cea7ae;
 }
