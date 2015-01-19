@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, figure{
 }
 
 body {
-	color: white;
+	color: #fbe2ce;
 	font-family: sans-serif;
 }
 
@@ -17,7 +17,7 @@ body {
 
 header {
 	height: 100px;
-	background: rgb(18,3,42);
+	background: #53647d;
 	width: 100%; 
 	z-index: 10;
 	position: fixed;
@@ -41,8 +41,8 @@ header nav {
 	height: 500px;
 	position: fixed;
 	top: 100px;
-	color: rgb(18,3,42);
-	background-image: url("../img/banner.jpg");
+	color: #5f2a65;
+	background-image: url("../img/banner3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -69,69 +69,29 @@ header nav {
 	width: 100%;
 	position: relative;
 	top: 600px;
-	background: #ebebFF;
+	background: #fbe2ce;
 }
 
 #content-nobanner {
 	width: 100%;
 	position: relative;
 	top: 100px;
-	background: #ebebFF;
+	background: #fbe2ce;
 }
-
-#matrix {
-	width: 80%;
-	margin: 0 auto;
-	position: relative;
-	top: 0px;
-	overflow: auto;
-	padding-bottom: 25px;
-}
-
-
-.game {
-	float: left;
-	width: 33.333%;
-	padding-bottom: 33.333%;
-	position: relative;
-	overflow:hidden;
-}
-
-.game img{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.game a{
-	margin: auto;
-  	position: absolute;
-  	left: 0; bottom: 0; right: 0;
-  	text-align: center;
-  	height: 20px;
-	padding: 5px 5px 8px 8px;
-	cursor:pointer;
-	color: rgb(18,3,42);
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    background: rgba(255,0,255,0.4);
-}
-
 
 footer {
 	width: 100%;
-	background: rgb(18,3,42);
+	background: #53647d;
 	text-align: center;
-	color: #ebebFF;
+	color: #fbe2ce;
 }
 
 footer a {
-	color: #ebebFF;
 	border-top: 5px;
 }
 
 footer a:hover {
-	color: rgb(77,211,160);
+	color: #a75397;
 }
 
 nav li {
@@ -149,7 +109,7 @@ footer p {
 }
 
 header nav a:hover {
-	color: rgb(77,211,160);
+	color: #a75397;
 }
 
 a {
@@ -158,57 +118,60 @@ a {
 }
 
 
-#pagination {
-	clear: left;
-	text-align: center;
-}
-
-
-.button {
-	margin-left: 10%;
-	-moz-box-shadow: 0px 10px 14px -7px #4b2773;
-	-webkit-box-shadow: 0px 10px 14px -7px #4b2773;
-	box-shadow: 0px 10px 14px -7px #4b2773;
-	background-color:transparent;
-	-moz-border-radius:9px;
-	-webkit-border-radius:9px;
-	border-radius:9px;
-	border:3px solid rgb(18,3,42);
-	cursor:pointer;
-	color:rgb(18,3,42);
-	font-size:16px;
-	font-weight:bold;
-	padding:14px 54px;
-	text-decoration:none;
-}
-.button:hover {
-	background-color: #ebebFF;
-}
-.button:active {
-	position:relative;
-	top:1px;
-}
-
-
 .container {
 	text-align: center;
 	width: 100%;
-	color: #ebebFF;
-	background: rgb(18,3,42);
+	color: #fbe2ce;
 	padding-bottom: 10px;
 	padding-top: 10px;
+}
+
+.pill-container-80 {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	color: #fbe2ce;
+	background: #53647d;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
+.pill-container-90 {
+	margin: 0 auto;
+	width: 95%;
+	color: #fbe2ce;
+	background: #729091;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
+.pill-container {
+	text-align: center;
+	width: 100%;
+	color: #fbe2ce;
+	background: #53647d;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	border-radius: 50px;
 }
 
 .container-80{
 	width: 80%;
 	color: #ebebFF;
-	background: rgb(18,3,42);
 	padding-bottom: 10px;
 	margin: 0 auto;
 	position: relative;
 	top: 0px;
 	overflow: auto;
 }
+
+
 
 .center {
 	overflow: auto;
@@ -217,42 +180,10 @@ a {
 	margin-right: auto;
 }
 
-.tower{
-	height: 30px;
-	float: left;
-}
-
-.subtitle {
-	margin-right: 10px;
-	margin-left: 10px;
-	float:left;
-}
-
-.game-canvas {
-	width: 900px;
-	height: 900px;
-}
-
-.game-logo {
-	width: 300px;
-	height: 300px;
-	float: left;
-}
-
 .clear-fix:after {
   content:"";
   display:table;
   clear:both;
-}
-
-.container-80 p,h1,h2,h3,h4{
-	padding-left: 10px;
-	padding-top: 8px;
-	padding-bottom: 5px;
-}
-
-.container-80 h1{
-	text-align: center;
 }
 
 .l-logo {
@@ -294,6 +225,14 @@ a {
     margin-right: auto;
 }
 
+.maker{
+	margin: 10px 10px 10px 10px;
+    display: inline-block;
+	width: 175px;
+	height: 175px;
+	position: relative;
+}
+
 .orchid {
 	color: rgb(218,112,214);
 }
@@ -305,4 +244,3 @@ a {
 .light-orange {
 	color: rgb(255,160,122);
 }
-
