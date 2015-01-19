@@ -244,3 +244,9 @@ a {
 .light-orange {
 	color: #cea7ae;
 }
+
+#album-art {
+	 width: 150px;
+	 height: 150px;
+	 border-radius: 8px;
+}
