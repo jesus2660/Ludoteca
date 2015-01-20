@@ -361,3 +361,19 @@ a {
 	padding-top: 10px;
 	border-radius: 30px;
 }
+
+.canvas-container-90 {
+	margin: 0 auto;
+	width: 95%;
+	color: black;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
+.canvas-container-90 a{
+	color: black;
+}
