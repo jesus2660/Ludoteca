@@ -377,3 +377,8 @@ a {
 .canvas-container-90 a{
 	color: black;
 }
+
+#download {
+	width: 80px;
+	height: 80px;
+}
