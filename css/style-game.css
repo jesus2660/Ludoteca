@@ -1,0 +1,384 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, figure{
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	color: #fbe2ce;
+	font-family: sans-serif;
+}
+
+#logo {
+	height: 66px;
+}
+
+#logotiny {
+	height: 33px;
+}
+
+header {
+	height: 100px;
+	background: #53647d;
+	width: 100%; 
+	z-index: 10;
+	position: fixed;
+	text-align: center;
+}
+
+header h1 {
+	height: 66px;
+}
+
+header h1 a {
+	margin-top: 5px;
+}
+
+header nav {
+	height: 34px;
+}
+
+#banner {
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+	color: #5f2a65;
+	background-image: url("../img/banner3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner h1{
+	margin-left: 10%;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	font-size: 500%;
+}
+
+#banner h3 {
+	margin-left: 10%;
+	font-size: 150%;
+	margin-bottom: 40px;
+}
+
+#banner form {
+	margin-left: 10%;
+	width: 300px;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+	top: 600px;
+	background: white;
+}
+
+#content-nobanner {
+	width: 100%;
+	position: relative;
+	top: 100px;
+	background: white;
+}
+
+#matrix {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	overflow: auto;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+
+.game {
+	margin: 10px 10px 10px 10px;
+    display: inline-block;
+	width: 175px;
+	height: 175px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+
+
+}
+
+.game a img{
+    width: 100%;
+    height: 100%;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 175px;
+  opacity: 0;
+  border-radius: 20px;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+ 
+span.text-content:hover {
+  opacity: 1;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+footer {
+	width: 100%;
+	background: #53647d;
+	text-align: center;
+	color: #fbe2ce;
+}
+
+footer a {
+	border-top: 5px;
+}
+
+footer a:hover {
+	color: #a75397;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 10px 10px;
+}
+
+footer ul {
+	padding-top: 5px;
+}
+
+footer p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+header nav a:hover {
+	color: #a75397;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#pagination {
+	clear: left;
+	text-align: center;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.button {
+   margin-left: 10%;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #5f2a65;
+  font-size: 20px;
+  padding: 15px 40px 15px 40px;
+  border: solid #5f2a65 3px;
+  text-decoration: none;
+  
+}
+
+.button:hover {
+  background: #fbe2ce;
+  text-decoration: none;
+}
+
+.container {
+	text-align: center;
+	width: 100%;
+	color: #fbe2ce;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.pill-container-80 {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	color: white;
+	background: #53647d;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
+.container-80{
+	width: 80%;
+	color: #ebebFF;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	position: relative;
+	top: 0px;
+	overflow: auto;
+}
+
+.center {
+	overflow: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tower{
+	height: 30px;
+	float: left;
+}
+
+.subtitle {
+	margin-right: 10px;
+	margin-left: 10px;
+	float:left;
+}
+
+.game-canvas {
+	width: 900px;
+	height: 900px;
+}
+
+.game-logo {
+	width: 300px;
+	height: 300px;
+	float: left;
+	border-radius: 15px;
+	margin-right: 20px;
+}
+
+#slideshow {
+	clear: both;
+	width: 600px;
+	height: 400px;
+	padding: 10px 10px 10px 10px;
+}
+
+.clear-fix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.game-header {
+	padding: 10px 10px 10px 10px;
+}
+
+.game-header h1,p{
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.separator {
+	background: rgb(18,3,42);
+}
+
+.subtitle {
+	margin-right: 10px;
+	margin-left: 10px;
+	float:left;
+}
+
+.game-canvas {
+	width: 900px;
+	height: 900px;
+}
+
+.game-logo {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#slideshow {
+	clear: both;
+	width: 600px;
+	height: 400px;
+	padding: 10px 10px 10px 10px;
+}
+
+.clear-fix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.game-header {
+	padding: 10px 10px 10px 10px;
+}
+
+.game-header h1,p{
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.container-80 p{
+	padding-left: 10px;
+}
+
+.light-green {
+	color: #4C3C6F;
+}
+
+.xs-logo {
+	width: 20px;
+	height: 20px;
+}
+
+.pill-container-90 {
+	margin: 0 auto;
+	width: 95%;
+	color: white;
+	background: #729091;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
+.canvas-container-90 {
+	margin: 0 auto;
+	width: 95%;
+	color: black;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-radius: 30px;
+}
+
+.canvas-container-90 a{
+	color: black;
+}
+
+#download {
+	width: 80px;
+	height: 80px;
+}
